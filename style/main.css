@@ -21,6 +21,7 @@ header {
     background-position: bottom right, left top;
     background-color: #FFF8F3;
     height: 837px;
+    position: relative
 }
 .header-section{
     display: flex;
@@ -85,7 +86,12 @@ header {
 
 .section-tow{
     width: 584px;
-    align-items: end;
+    /* align-items: end; */
+}
+.section-tow img{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
 /* main Part */
 main{
