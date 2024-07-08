@@ -16,9 +16,9 @@ body{
 
 /* Logo and Menu */
 header {
-    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: left top, bottom right;
+    background-position: bottom right, left top;
     background-color: #FFF8F3;
     height: 837px;
 }
@@ -198,10 +198,10 @@ main{
 }
 /* footer-section */
 .footer-container{
-    height: 750px;
+    height: 780px;
     margin: 0 auto;
     background-color: #FFF8F3;
-    padding-top: 130px;
+    padding: 130px 0;
 }
 .footer-section{
     display: flex;
@@ -232,12 +232,28 @@ main{
     flex-direction: column;
     /* justify-content: center; */
  }
- .form-filup input,textarea{
+ .form-filup input{
     margin: 24px 0;
     padding: 20px;
+    width: 461px;
+    height: 64px;
+    font-size: 16px;
+    color: #757575;
+ }
+ /* .form-filup input ::placeholder{
+    font-size: 16px;
+    color: #757575;
+ } */
+ .form-filup textarea{
+    margin: 24px 0;
+    padding: 20px;
+    width: 461px;
+    height: 180px;
+    font-size: 16px;
+    color: #757575;
  }
 .form-section{}
 
 .but-futt{
-    padding-top: 24px;
+    padding: 24px 0 0;
 }
